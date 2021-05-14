@@ -2,6 +2,6 @@ package sayhello
 
 import "fmt"
 
-func SayHello() {
-	fmt.Println("hello")
+func SayHello(name string) {
+	fmt.Println("hello " + name)
 }
